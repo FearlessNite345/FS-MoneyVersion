@@ -1,3 +1,6 @@
+# Changelog v1.1.1
+- Added a new parameter to the `addMoney` and `removeMoney` exports to control whether a notification is shown to the player.
+
 # Changelog v1.1.0
 — Introduced **Poker Chips** as a new currency type  
 — Poker Chips are automatically added to your database if already initialized, so you don’t need to update your SQL manually  
