@@ -1,3 +1,8 @@
+# Changelog v1.3.1
+- Major performance improvements, reduced resmon usage from 0.90–1.00ms to 0.06–0.15ms (tested on a good system).
+- Improved ATM walk-up logic for much more accurate positioning.
+- Added new config option to hide text prompts.
+
 # Changelog v1.3.0
 
 - Added support for customizing the bank name displayed on ATMs.
