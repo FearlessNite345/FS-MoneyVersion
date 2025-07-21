@@ -1,4 +1,10 @@
+# Changelog v1.3.2
+
+- Added a new `getMoney` export for client-side use.
+- You can now toggle individual elements in the built-in Money HUD through the config. This is useful if you’re using a custom HUD that already displays cash, bank, or dirty money, but you still want the built-in HUD to show elements like “pokerchips.”
+
 # Changelog v1.3.1
+
 - Major performance improvements, reduced resmon usage from 0.90–1.00ms to 0.06–0.15ms (tested on a good system).
 - Improved ATM walk-up logic for much more accurate positioning.
 - Added new config option to hide text prompts.
