@@ -1,3 +1,7 @@
+# Changelog v1.3.3
+
+- Added `setScanForATMs` export to support upcoming integration with the FS-Robberies script.
+
 # Changelog v1.3.2
 
 - Added a new `getMoney` export for client-side use.
