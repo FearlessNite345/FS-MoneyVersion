@@ -1,3 +1,6 @@
+# Changelog v1.3.4
+- Fixed a critical issue where the MoneyHUD would not function correctly when using a third-party HUD alongside parts of the built-in one. This conflict has now been resolved.
+
 # Changelog v1.3.3
 
 - Added `setScanForATMs` export to support upcoming integration with the FS-Robberies script.
