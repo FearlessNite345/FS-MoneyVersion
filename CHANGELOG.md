@@ -1,3 +1,13 @@
+# Changelog v1.4.0
+
+- Added a brand-new **banking dashboard** accessed via `/banking`, giving players a native-feeling way to manage their money outside of the phone.  
+- Introduced a full **transactions system**, letting players view their past credits and debits with balance-after snapshots for each entry.  
+- Added a standalone **wire transfer system** for players who don’t have LB-Phone, allowing them to send wires directly from the banking dashboard.  
+- Added a new config option for **WireTransfer fees**, letting you define whether wire transfers include a flat fee. This applies both to the new dashboard and the LB-Phone app.  
+- Polished the entire **banking dashboard UI** to look and feel even closer to a true mobile-banking application.  
+- Added a new config option `Config.LedgerCurrencies`, allowing you to choose which currencies are logged to the database and displayed in the transactions screen.  
+- Included a new **database file for transaction logging**. ⚠️ This file is required — without it the script will not function properly.  
+
 # Changelog v1.3.4
 - Fixed a critical issue where the MoneyHUD would not function correctly when using a third-party HUD alongside parts of the built-in one. This conflict has now been resolved.
 
