@@ -1,3 +1,9 @@
+# Changelog v1.4.1
+- Refined character positioning in front of ATMs to prevent looping issues.
+- Implemented an ATM usage check, preventing interaction when the machine is already in use.
+- Added missing command suggestions for /banking.
+- Fixed a few other minor bugs.
+
 # Changelog v1.4.0
 
 - Added a brand-new **banking dashboard** accessed via `/banking`, giving players a native-feeling way to manage their money outside of the phone.  
