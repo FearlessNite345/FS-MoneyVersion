@@ -1,3 +1,8 @@
+# Changelog v1.4.2
+- Added support for `ox_target`, allowing players to interact using target zones instead of text prompts.  
+- Introduced new config option `Config.useTargetSystem` to enable or disable the target interaction system.  
+- When `Config.useTargetSystem` is enabled, text prompts will no longer be used.
+
 # Changelog v1.4.1
 - Refined character positioning in front of ATMs to prevent looping issues.
 - Implemented an ATM usage check, preventing interaction when the machine is already in use.
