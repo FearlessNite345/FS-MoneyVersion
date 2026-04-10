@@ -1,3 +1,6 @@
+# Changelog v1.4.3
+- Fixed rare ATM interaction errors related to ox_target.
+
 # Changelog v1.4.2
 - Added support for `ox_target`, allowing players to interact using target zones instead of text prompts.  
 - Introduced new config option `Config.useTargetSystem` to enable or disable the target interaction system.  
